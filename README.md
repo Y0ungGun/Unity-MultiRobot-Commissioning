@@ -8,7 +8,7 @@ Also, it can simulate history with InfluxDB's time series data.
 
 ### Requirements
 
-- [Unity](https://unity.com/) - 게임 엔진
+- [Unity](https://unity.com/) - Game Engine
 - Unity version: 6000.0.30f
 
 ### Usage
