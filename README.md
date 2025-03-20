@@ -1,32 +1,22 @@
-# 프로젝트 이름
+# Unity Multi Robots Virtual Commissioning based on MTConnect&InfluxDB
 
-![프로젝트 로고 또는 이미지 (선택적)](이미지 URL)
 
-## 소개
+## MTConnect
 
-간략한 프로젝트 설명을 여기에 작성하세요. 이 프로젝트가 무엇인지, 해결하려는 문제나 목표를 설명합니다.
+This project simulates robot control with MTConnect current Data.
+Also, it can simulate history with InfluxDB's time series data.
 
-예시:
-- 이 프로젝트는 Unity 기반 로봇 시뮬레이터를 개발하여, 로봇 제어와 물리 시뮬레이션을 테스트합니다.
+### Requirements
 
-## 특징
-
-- 주요 기능 1
-- 주요 기능 2
-- 주요 기능 3
-
-## 시작하기
-
-### 필수 사항
-
-이 프로젝트를 로컬에서 실행하기 위해 필요한 필수 소프트웨어나 라이브러리 목록을 작성하세요.
-
-- [Node.js](https://nodejs.org/) - 자바스크립트 런타임
 - [Unity](https://unity.com/) - 게임 엔진
+- Unity version: 6000.0.30f
 
-### 설치 방법
+### Usage
 
-1. 이 리포지토리를 클론합니다:
+1. Download this repo in zip format
 
-   ```bash
-   git clone https://github.com/사용자이름/리포지토리이름.git
+2. Unzip and add project in unity hub
+
+3. To simulate current robot, utilize MTConnect gameobject and unutilize InfluxDB gameobject.
+
+4. To simulate history, (un)utilize gameobjects to the opposite.
